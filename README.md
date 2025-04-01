@@ -44,8 +44,9 @@ const MyComponent = () => {
 export default MyComponent;
 
 ### Props
-```
+
 Props는 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달하는 방법입니다.
+```
 // 부모 컴포넌트
 const ParentComponent = () => {
   return <ChildComponent name="홍길동" age={30} />;
