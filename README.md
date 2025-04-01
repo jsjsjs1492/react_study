@@ -45,7 +45,6 @@ export default MyComponent;
 
 ### Props
 
-Props는 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달하는 방법입니다.
 ```
 // 부모 컴포넌트
 const ParentComponent = () => {
@@ -71,6 +70,7 @@ const ChildComponent = ({ name, age }) => {
     </div>
   );
 };
+
 ```
 ## 3. JSX 문법
 JSX는 JavaScript XML의 약자로, JavaScript 내에서 HTML과 유사한 마크업을 작성할 수 있게 해주는 문법입니다.
